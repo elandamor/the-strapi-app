@@ -6,5 +6,5 @@ module.exports = ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET", "8ba8c592ab2a29dca7f2004743a9157c"),
     },
   },
-  url: "http://localhost:1337",
+  url: "https://the-strapi-app.herokuapp.com",
 });
