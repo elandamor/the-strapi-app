@@ -12,6 +12,7 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "<0.20.0",
+    "paystack-api": "^2.0.5",
     "pg": "^8.4.1",
     "pg-connection-string": "^2.4.0",
     "sqlite3": "latest",
