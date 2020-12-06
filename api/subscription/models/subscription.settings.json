@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscriptions",
+  "info": {
+    "name": "Subscription",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "paystackId": {
+      "type": "string"
+    },
+    "paystackToken": {
+      "type": "string"
+    },
+    "authorizationCode": {
+      "type": "string"
+    },
+    "subscriber": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "subscriptions"
+    }
+  }
+}
